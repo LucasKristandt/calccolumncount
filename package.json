@@ -1,0 +1,31 @@
+{
+  "name": "calccolumncount",
+  "version": "1.0.0",
+  "description": "Dynamically calculate the perfect column count for each  row for given col-count, target and min colums.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasKristandt/calccolumncount.git"
+  },
+  "keywords": [
+    "row",
+    "column",
+    "calc",
+    "calculate",
+    "grid",
+    "bootstrap",
+    "dynamic",
+    "auto",
+    "responsive",
+    "html"
+  ],
+  "author": "Lucas Kristandt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasKristandt/calccolumncount/issues"
+  },
+  "homepage": "https://github.com/LucasKristandt/calccolumncount#readme"
+}
