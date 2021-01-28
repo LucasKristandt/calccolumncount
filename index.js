@@ -1,5 +1,5 @@
-var calcColumnCount = function(anzColumns, targetCount, minColumns) {
-    var lastColumns = anzColumns % targetCount;
+var calcColumnCount = function(columnCount, targetCount, minColumns) {
+    var lastColumns = columnCount % targetCount;
     var columnCount = targetCount;
 
     if (
@@ -8,7 +8,7 @@ var calcColumnCount = function(anzColumns, targetCount, minColumns) {
         targetCount > 0 &&
         targetCount > minColumns
     ) {
-        columnCount = calcColumnCount(anzColumns, targetCount - 1, minColumns);
+        columnCount = calcColumnCount(columnCount, targetCount - 1, minColumns);
     }
 
     return columnCount;
@@ -17,5 +17,5 @@ var calcColumnCount = function(anzColumns, targetCount, minColumns) {
 exports.calcColumnCount = calcColumnCount;
 
 exports.calcColSize = function() {
-    return gridBase / calcColumnCount(anzColumns, targetCount, minColumns);
+    return gridBase / calcColumnCount(columnCount, targetCount, minColumns);
 }
