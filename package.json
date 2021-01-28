@@ -1,5 +1,5 @@
 {
-  "name": "calccolumncount",
+  "name": "dyncolcount",
   "version": "1.0.0",
   "description": "Dynamically calculate the perfect column count for each  row for given col-count, target and min colums.",
   "main": "index.js",
